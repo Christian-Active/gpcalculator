@@ -89,6 +89,9 @@ table thead {
     font-weight: bold;
     text-align: center;
 }
+table tbody {
+    text-transform: uppercase;
+}
 table td {
     text-align: center;
     padding: 10px;

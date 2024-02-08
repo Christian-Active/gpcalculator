@@ -38,11 +38,12 @@ addCourse.addEventListener('click', e => {
 })
 
 let calcGP = document.querySelector(".calcGP")
+let totalGP = 0;
+let totalCl = 0;
+
 calcGP.addEventListener('click', (e) => {
     e.preventDefault();
     let courses = document.querySelectorAll('.course')
-    let totalGP = 0;
-    let totalCl = 0;
 
     courses.forEach( course => {
         let courseName = course.querySelector("#course")
