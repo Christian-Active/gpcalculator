@@ -14,9 +14,6 @@ h1 {
     text-align: center;
     margin-top: 30px;
 }
-h1::first-letter {
-    font-size: 45px;
-}
 .form-area {
     width: 90%;
     margin: 0 auto;
@@ -60,6 +57,13 @@ input:focus, select:focus {
     border: 1px solid rgb(7, 7, 119);
 }
 .calcGP {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.calcGP button {
+    width: 100%;
+    max-width: 400px;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -87,4 +91,14 @@ table td {
 table .gpClass td {
     font-weight: bold;
     font-size: 18px;
+}
+
+@media screen and (min-width: 720px) {
+    body {
+        padding: 0px 30%;
+    }
+    .calcGP {
+        display: flex;
+        justify-content: flex-start;
+    }
 }
