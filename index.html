@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>GP Calculator</title>
+</head>
+<body>
+    <h1>GP CALCULATOR</h1>
+
+    <div class="form-area">
+        <div class="addCourse"><button id="addCourse">Add Course</button></div>
+        <form id="courseForm">
+            <div id="allCourses">
+
+            </div>
+            <button class="calcGP" type="submit">Calculate GP</button>
+        </form>
+    </div>
+    
+    <table border="1px solid grey">
+        <thead>
+            <td>Course</td>
+            <td>Credit Load</td>
+            <td>Grade</td>
+        </thead>
+
+        <tbody id="courseTable">
+
+        </tbody>
+        <tr class="gpClass">
+            <td>G.P.A</td>
+            <td id="gpa" colspan="2"></td>
+        </tr>
+    </table>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

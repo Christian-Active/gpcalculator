@@ -1,0 +1,74 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.form-area {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 2%;
+}
+.addCourse {
+    display: flex;
+    justify-content: flex-end;
+}
+.addCourse button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.course {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+input, select{
+    border: none;
+    margin-top: 10px;
+    padding: 5px 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.calcGP {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+ 
+table {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    visibility: hidden;
+}
+table thead {
+    font-weight: bold;
+    text-align: center;
+}
+table td {
+    text-align: center;
+    padding: 10px;
+} 
+table .gpClass td {
+    font-weight: bold;
+    font-size: 18px;
+}
