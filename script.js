@@ -44,8 +44,6 @@ calcGP.addEventListener('click', (e) => {
     let totalGP = 0;
     let totalCl = 0;
 
-    table.style.visibility = 'visible'
-
     courses.forEach( course => {
         let courseName = course.querySelector("#course")
         let creditLoad = course.querySelector("#creditLoad")
@@ -86,6 +84,7 @@ calcGP.addEventListener('click', (e) => {
             let tr = document.createElement('tr')
             tr.innerHTML = tableHTML
             courseTable.appendChild(tr)
+            table.style.visibility = 'visible'
         } else {
             gradePoint = 0;
         }
